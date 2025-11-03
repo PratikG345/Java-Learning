@@ -33,3 +33,26 @@ public class classesAndObjects {
     }
 }
 
+/*
+ 
+🧠 Concept Notes (Interview-Ready)
+
+1. Each object has its own copy of instance variables.
+→ m1 and m2 are different objects, so their variables (mic and cam) are stored separately in memory.
+
+2. Default values:
+→ If an instance variable is not initialized, Java automatically assigns:
+
+0 → for numeric types
+
+false → for boolean
+
+null → for reference types
+
+3. Why m1 shows 0, 0:
+→ Because m1.setValue() was never called, so mic and cam remain uninitialized (default = 0).
+
+4. Why m2 shows 2, 40:
+→ Because m2.setValue() sets mic = 2 and cam = 40, and those values belong to the m2 object only.
+
+ */
