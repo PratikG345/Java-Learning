@@ -76,3 +76,22 @@ To avoid naming conflicts, organize code, provide access control, and improve re
 
 ### ✅ Q4: What is Default Package?
 The package where a class goes when no package name is written.
+
+---
+
+           ┌──────────────────────┐
+           │      package1        │
+           │   ┌──────────────┐   │
+           │   │  amit.java   │   │
+           │   │ (class amit) │
+           │   └──────────────┘   │
+           └─────────▲────────────┘
+                     │ imported
+                     │
+           ┌──────────────────────┐
+           │      package2        │
+           │   ┌──────────────┐   │
+           │   │  sumit.java  │   │
+           │   │ (class sumit │
+           │   └──────────────┘   │
+           └──────────────────────┘
